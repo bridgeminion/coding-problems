@@ -32,6 +32,11 @@ public class DistributeCoinsInBinaryTree {
         return sum;
     }
 
+    /**
+     * moves needed is diff for left subtree + diff for right subtree
+     * @param root
+     * @return
+     */
     private int[] helper(TreeNode root) {
         if (root == null) {
             return new int[]{0, 0};
