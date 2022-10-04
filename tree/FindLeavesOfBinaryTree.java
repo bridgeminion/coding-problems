@@ -1,4 +1,4 @@
-package dfs;
+package tree;
 
 import common.TreeNode;
 
