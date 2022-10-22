@@ -3,6 +3,20 @@ package stack;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+/**
+ * Given a string s, return the lexicographically smallest subsequence of s that contains all the distinct characters of s exactly once.
+ *
+ *
+ *
+ * Example 1:
+ *
+ * Input: s = "bcabc"
+ * Output: "abc"
+ * Example 2:
+ *
+ * Input: s = "cbacdcbc"
+ * Output: "acdb"
+ */
 public class SmallestSubsequenceOfDistinctCharacters {
     public String smallestSubsequence(String s) {
         int[] lastIndex = new int[26];
